@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a208ce-acd9-4b44-bf76-22734e8d8236" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" afterPath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" />
-    </list>
+    <list default="true" id="88a208ce-acd9-4b44-bf76-22734e8d8236" name="Default" comment="" />
     <ignored path="FYP-Server.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/WaitThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -48,8 +46,8 @@
       <file leaf-file-name="SimpleSPPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/temp/SimpleSPPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25747126">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35172415">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,7 +210,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.RemoteBluetoothServer">
+  <component name="RunManager" selected="Application.SimpleSPPServer">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -523,7 +521,7 @@
       <workItem from="1447014406973" duration="5570000" />
       <workItem from="1447026373294" duration="688000" />
       <workItem from="1447086978454" duration="4018000" />
-      <workItem from="1447091106911" duration="2159000" />
+      <workItem from="1447091106911" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <created>1447018636865</created>
@@ -547,7 +545,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12435000" />
+    <option name="totallyTimeSpent" value="13220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,10 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/WaitThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ProcessConnectionThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -732,18 +730,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ProcessConnectionThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/WaitThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/temp/SimpleSPPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25747126">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35172415">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
