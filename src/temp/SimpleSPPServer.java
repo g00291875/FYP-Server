@@ -1,12 +1,6 @@
 package temp;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
+import java.io.*;
 
 import javax.bluetooth.*;
 import javax.microedition.io.*;
@@ -15,7 +9,11 @@ import javax.microedition.io.*;
  * Class that implements an SPP Server which accepts single line of
  * message from an SPP client and sends a single line of response to the client.
  */
+
 public class SimpleSPPServer {
+    private DataInputStream dataInputStream;
+    private DataOutputStream dataOutputStream;
+
 
     //start server
     private void startServer() throws IOException{
@@ -37,19 +35,34 @@ public class SimpleSPPServer {
         System.out.println("Remote device name: "+dev.getFriendlyName(true));
 
         //read string from spp client
-        InputStream inStream=connection.openInputStream();
-        BufferedReader bReader=new BufferedReader(new InputStreamReader(inStream));
-        String lineRead=bReader.readLine();
-        System.out.println(lineRead);
+        //InputStream inStream=connection.openInputStream();
+        //BufferedReader bReader=new BufferedReader(new InputStreamReader(inStream));
+        //String lineRead=bReader.readLine();
+        //System.out.println(lineRead);
+        /**********************/
+        dataInputStream = new DataInputStream(connection.openInputStream());
+        dataOutputStream = new DataOutputStream(connection.openOutputStream());
+
+        /*********************/
+        while (true) {
+            if(dataInputStream.available() > 0){
+                byte[] msg = new byte[dataInputStream.available()];
+                dataInputStream.read(msg, 0, dataInputStream.available());
+
+                System.out.print(new String(msg)+"\n");
+            }
+        }
+
+
 
         //send response to spp client
-        OutputStream outStream=connection.openOutputStream();
-        PrintWriter pWriter=new PrintWriter(new OutputStreamWriter(outStream));
-        pWriter.write("Response String from SPP Server\r\n");
-        pWriter.flush();
+       // OutputStream outStream=connection.openOutputStream();
+       // PrintWriter pWriter=new PrintWriter(new OutputStreamWriter(outStream));
+       // pWriter.write("Response String from SPP Server\r\n");
+       // pWriter.flush();
 
-        pWriter.close();
-        streamConnNotifier.close();
+       // pWriter.close();
+       // streamConnNotifier.close();
 
     }
 
