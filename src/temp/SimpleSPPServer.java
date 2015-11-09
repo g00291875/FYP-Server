@@ -43,13 +43,22 @@ public class SimpleSPPServer {
         dataInputStream = new DataInputStream(connection.openInputStream());
         dataOutputStream = new DataOutputStream(connection.openOutputStream());
 
+        String str="test";
+        byte[] data=str.getBytes("UTF-8");
+
         /*********************/
         while (true) {
             if(dataInputStream.available() > 0){
                 byte[] msg = new byte[dataInputStream.available()];
                 dataInputStream.read(msg, 0, dataInputStream.available());
 
-                System.out.print(new String(msg)+"\n");
+                String StrMsg = new String(msg);
+                System.out.print(StrMsg+"\n");
+
+
+                dataOutputStream.writeInt(data.length);
+                dataOutputStream.write(data);
+                dataOutputStream.flush();
             }
         }
 

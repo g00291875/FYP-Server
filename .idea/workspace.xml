@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a208ce-acd9-4b44-bf76-22734e8d8236" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ProcessConnectionThread.java" afterPath="$PROJECT_DIR$/src/com/ProcessConnectionThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" afterPath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" />
     </list>
     <ignored path="FYP-Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="SimpleSPPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/temp/SimpleSPPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23448277">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.25747126">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/WaitThread.java" />
         <option value="$PROJECT_DIR$/src/com/b.java" />
         <option value="$PROJECT_DIR$/src/com/WaitThread.java" />
-        <option value="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" />
         <option value="$PROJECT_DIR$/src/com/ProcessConnectionThread.java" />
+        <option value="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" />
       </list>
     </option>
   </component>
@@ -523,7 +523,7 @@
       <workItem from="1447014406973" duration="5570000" />
       <workItem from="1447026373294" duration="688000" />
       <workItem from="1447086978454" duration="4018000" />
-      <workItem from="1447091106911" duration="677000" />
+      <workItem from="1447091106911" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <created>1447018636865</created>
@@ -547,7 +547,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10953000" />
+    <option name="totallyTimeSpent" value="12435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/temp/SimpleSPPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23448277">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.25747126">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
