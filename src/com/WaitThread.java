@@ -26,7 +26,12 @@ public class WaitThread implements Runnable {
         StreamConnectionNotifier notifier;
         StreamConnection connection = null;
 
-        // setup the server to listen for connection
+//        private final String NAME_SERVICE_BT = "bluetooth";
+//        private final java.util.UUID ID_CONECTION = java.util.UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+//        BluetoothSocket bluetoothSocket = null;
+//        BluetoothServerSocket serverSocket = adaptador.listenUsingRfcommWithServiceRecord(NAME_SERVICE_BT, ID_CONECTION);
+
+            // setup the server to listen for connection
         try {
             //String address = getBluetoothAddress();
             local = LocalDevice.getLocalDevice();

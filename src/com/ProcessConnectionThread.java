@@ -50,6 +50,12 @@ public class ProcessConnectionThread implements Runnable {
                     dataInputStream.read(msg, 0, dataInputStream.available());
                     System.out.print(new String(msg)+"\n");
                     //sendHandler(ChatActivity.MSG_BLUETOOTH, nameBluetooth + ": " + new String(msg));
+
+                   // if(new String(msg) == "t") {
+                        dataOutputStream.writeInt(msg.length);
+                        //dataOutputStream.write(msg);
+                        dataOutputStream.flush();
+                   // }
                 }
             }
         } catch (Exception e) {
