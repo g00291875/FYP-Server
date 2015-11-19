@@ -45,9 +45,9 @@ public class ProcessConnectionThread implements Runnable {
 
             System.out.println("waiting for input");
 
-            byte[] buf = "hello".getBytes("UTF-8");
-            dataOutputStream.write(buf, 0, buf.length);
-            dataOutputStream.flush();
+//            byte[] buf = "hello".getBytes("UTF-8");
+//            dataOutputStream.write(buf, 0, buf.length);
+//            dataOutputStream.flush();
 
             while (true) {
                 if(dataInputStream.available() > 0){
@@ -57,6 +57,8 @@ public class ProcessConnectionThread implements Runnable {
                     //sendHandler(ChatActivity.MSG_BLUETOOTH, nameBluetooth + ": " + new String(msg));
 
                     sendMessageByBluetooth("received");
+
+
                 }
             }
         } catch (Exception e) {
