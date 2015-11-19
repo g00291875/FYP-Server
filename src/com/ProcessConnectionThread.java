@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
         import java.awt.event.KeyEvent;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 
         import javax.microedition.io.StreamConnection;
@@ -44,6 +45,10 @@ public class ProcessConnectionThread implements Runnable {
 
             System.out.println("waiting for input");
 
+            byte[] buf = "hello".getBytes("UTF-8");
+            dataOutputStream.write(buf, 0, buf.length);
+            dataOutputStream.flush();
+
             while (true) {
                 if(dataInputStream.available() > 0){
                     byte[] msg = new byte[dataInputStream.available()];
@@ -51,11 +56,7 @@ public class ProcessConnectionThread implements Runnable {
                     System.out.print(new String(msg)+"\n");
                     //sendHandler(ChatActivity.MSG_BLUETOOTH, nameBluetooth + ": " + new String(msg));
 
-                   // if(new String(msg) == "t") {
-                        dataOutputStream.writeInt(msg.length);
-                        //dataOutputStream.write(msg);
-                        dataOutputStream.flush();
-                   // }
+                    sendMessageByBluetooth("received");
                 }
             }
         } catch (Exception e) {
@@ -64,6 +65,24 @@ public class ProcessConnectionThread implements Runnable {
 
         /**
          */
+    }
+
+    public boolean sendMessageByBluetooth(String msg){
+        try {
+            if(dataOutputStream != null){
+                dataOutputStream.write(msg.getBytes());
+                dataOutputStream.flush();
+                return true;
+            }else{
+               // sendHandler(ChatActivity.MSG_TOAST, context.getString(R.string.no_connection));
+                return false;
+            }
+        } catch (IOException e) {
+           // LogUtil.e(e.getMessage());
+
+           // sendHandler(ChatActivity.MSG_TOAST, context.getString(R.string.failed_to_send_message));
+            return false;
+        }
     }
 
     /**
