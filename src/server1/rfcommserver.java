@@ -58,19 +58,19 @@ public class rfcommserver {
         }
     }
 
-    public static void main( String args[] ) {
-        try {
-            LocalDevice local = LocalDevice.getLocalDevice();
-            System.out.println("Serverted:\n"
-                    +local.getBluetoothAddress()
-                    +"\n"+local.getFriendlyName());
-
-            rfcommserver ff = new rfcommserver();
-            while (true) {
-                ff.startserver();
-            } //while
-        }  //try
-        catch (Exception e) {System.err.print(e.toString());
-        }
-    }
+//    public static void main( String args[] ) {
+//        try {
+//            LocalDevice local = LocalDevice.getLocalDevice();
+//            System.out.println("Serverted:\n"
+//                    +local.getBluetoothAddress()
+//                    +"\n"+local.getFriendlyName());
+//
+//            rfcommserver ff = new rfcommserver();
+//            while (true) {
+//                ff.startserver();
+//            } //while
+//        }  //try
+//        catch (Exception e) {System.err.print(e.toString());
+//        }
+//    }
 }  //main

@@ -7,8 +7,8 @@ import java.util.concurrent.*;
 public class RemoteBluetoothServer {
 
     public static void main(String[] args) throws Exception {
-        //Thread waitThread = new Thread(new WaitThread());
-        //waitThread.start();
+        Thread waitThread = new Thread(new WaitThread());
+        waitThread.start();
 //            ExecutorService pool = Executors.newFixedThreadPool(3);
 //
 //            Set<Future<String>> set = new HashSet<>();

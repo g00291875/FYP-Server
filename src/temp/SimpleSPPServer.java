@@ -56,9 +56,9 @@ public class SimpleSPPServer {
                 System.out.print(StrMsg+"\n");
 
 
-                dataOutputStream.writeInt(data.length);
-                dataOutputStream.write(data);
-                dataOutputStream.flush();
+//                dataOutputStream.writeInt(data.length);
+//                dataOutputStream.write(data);
+//                dataOutputStream.flush();
             }
         }
 

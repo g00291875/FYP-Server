@@ -3,9 +3,11 @@ package swingWorker; /**
  */
 
 import com.ProcessConnectionThread;
+import server1.rfcommserver;
 
 import javax.bluetooth.DiscoveryAgent;
 import javax.bluetooth.LocalDevice;
+import javax.bluetooth.RemoteDevice;
 import javax.bluetooth.UUID;
 import javax.microedition.io.Connector;
 import javax.microedition.io.StreamConnection;
@@ -22,8 +24,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
@@ -46,6 +47,9 @@ public class MyGui extends JFrame {
     int returnVal;
     Rearrange rr = null;
     String fileAbsolutePath;
+
+    private DataInputStream dataInputStream;
+    private DataOutputStream dataOutputStream;
 
     public MyGui() {
         createView();
@@ -185,45 +189,65 @@ public class MyGui extends JFrame {
     }
 
     void waitthread(){
-        SwingWorker<Boolean, Void> worker2 = new SwingWorker<Boolean, Void>() {
+        SwingWorker<Boolean, String> worker2 = new SwingWorker<Boolean, String>() {
 
             @Override
             protected Boolean doInBackground() throws Exception {
-                LocalDevice local = null;
-                StreamConnectionNotifier notifier;
+                Boolean flag = false;
+                // retrieve the local Bluetooth device object
+                StreamConnectionNotifier notifier = null;
                 StreamConnection connection = null;
-
-                // setup the server to listen for connection
                 try {
-                    //String address = getBluetoothAddress();
+                    LocalDevice local = null;
                     local = LocalDevice.getLocalDevice();
                     local.setDiscoverable(DiscoveryAgent.GIAC);
-
                     UUID uuid = new UUID(80087355); // "04c6093b-0000-1000-8000-00805f9b34fb"
                     String url = "btspp://localhost:" + uuid.toString() + ";name=RemoteBluetooth";
                     notifier = (StreamConnectionNotifier) Connector.open(url);
-                } catch (Exception e) {
+                    connection = null;
+                } catch (IOException e) {
                     e.printStackTrace();
-                    return true;
                 }
+
                 // waiting for connection
-                while (true) {
+                while (flag == false) {
                     try {
                         System.out.println("waiting for connection...");
                         connection = notifier.acceptAndOpen();
                         System.out.println("connected!");
-                        Thread processThread = new Thread(new ProcessConnectionThread(connection));
-                        processThread.start();
-                        return true;
+                        //Thread processThread = new Thread(new ProcessConnectionThread(connection));
+                       // processThread.start();
                     } catch (Exception e) {
                         e.printStackTrace();
-                        return true;
                     }
+
+                    dataInputStream = new DataInputStream(mConnection.openInputStream());
+                    dataOutputStream = new DataOutputStream(mConnection.openOutputStream());
+
+                    System.out.println("waiting for input");
+
+                    while (true) {
+                        if(dataInputStream.available() > 0){
+                            byte[] msg = new byte[dataInputStream.available()];
+                            dataInputStream.read(msg, 0, dataInputStream.available());
+                            System.out.print(new String(msg)+"\n");
+                            sendMessageByBluetooth("request received");
+                        }
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 }
             }
+
+//            @Override
+//            protected void process(String msg) {
+//                jTextArea2.append( msg + "\n");
+//            }
+
             @Override
             protected void done() {
-                System.out.println("connected");
+                System.out.println("finsihed");
             }//done
         };//swing worker
         worker2.execute();
