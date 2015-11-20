@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88a208ce-acd9-4b44-bf76-22734e8d8236" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/swingWorker/MyGui.java" afterPath="$PROJECT_DIR$/src/swingWorker/MyGui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/RemoteBluetoothServer.java" afterPath="$PROJECT_DIR$/src/com/RemoteBluetoothServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" afterPath="$PROJECT_DIR$/src/temp/SimpleSPPServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server1/rfcommserver.java" afterPath="$PROJECT_DIR$/src/server1/rfcommserver.java" />
     </list>
     <ignored path="FYP-Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +28,13 @@
       <file leaf-file-name="MyGui.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/swingWorker/MyGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66593885">
-              <caret line="221" column="21" selection-start-line="221" selection-start-column="21" selection-end-line="221" selection-end-column="21" />
+            <state vertical-scroll-proportion="1.1855896">
+              <caret line="238" column="21" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11638#11667#1" expanded="true" />
+                <element signature="e#8773#8774#0" expanded="true" />
+                <element signature="e#8835#8836#0" expanded="true" />
+                <element signature="e#12016#12045#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -282,6 +281,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -656,7 +657,7 @@
       <workItem from="1447959510807" duration="155000" />
       <workItem from="1447961102048" duration="11340000" />
       <workItem from="1448028942366" duration="598000" />
-      <workItem from="1448032617696" duration="2569000" />
+      <workItem from="1448032617696" duration="4089000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <created>1447018636865</created>
@@ -680,7 +681,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39621000" />
+    <option name="totallyTimeSpent" value="41141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +694,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -703,7 +704,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2530675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -819,7 +820,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11638#11667#1" expanded="true" />
+            <element signature="e#8773#8774#0" expanded="true" />
+            <element signature="e#8835#8836#0" expanded="true" />
+            <element signature="e#12016#12045#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,11 +1182,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/swingWorker/MyGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66593885">
-          <caret line="221" column="21" selection-start-line="221" selection-start-column="21" selection-end-line="221" selection-end-column="21" />
+        <state vertical-scroll-proportion="1.1855896">
+          <caret line="238" column="21" selection-start-line="238" selection-start-column="21" selection-end-line="238" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11638#11667#1" expanded="true" />
+            <element signature="e#8773#8774#0" expanded="true" />
+            <element signature="e#8835#8836#0" expanded="true" />
+            <element signature="e#12016#12045#1" expanded="true" />
           </folding>
         </state>
       </provider>

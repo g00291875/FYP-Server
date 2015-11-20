@@ -25,8 +25,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class MyGui extends JFrame {
@@ -189,10 +189,10 @@ public class MyGui extends JFrame {
     }
 
     void waitthread(){
-        SwingWorker<Boolean, String> worker2 = new SwingWorker<Boolean, String>() {
+        SwingWorker<Void, String> worker2 = new SwingWorker<Void, String>() {
 
             @Override
-            protected Boolean doInBackground() throws Exception {
+            protected Void doInBackground() throws Exception {
                 Boolean flag = false;
                 // retrieve the local Bluetooth device object
                 StreamConnectionNotifier notifier = null;
@@ -215,14 +215,16 @@ public class MyGui extends JFrame {
                         System.out.println("waiting for connection...");
                         connection = notifier.acceptAndOpen();
                         System.out.println("connected!");
+                        flag = true;
                         //Thread processThread = new Thread(new ProcessConnectionThread(connection));
-                       // processThread.start();
+                        // processThread.start();
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
+                }
 
-                    dataInputStream = new DataInputStream(mConnection.openInputStream());
-                    dataOutputStream = new DataOutputStream(mConnection.openOutputStream());
+                    dataInputStream = new DataInputStream(connection.openInputStream());
+                    dataOutputStream = new DataOutputStream(connection.openOutputStream());
 
                     System.out.println("waiting for input");
 
@@ -231,19 +233,28 @@ public class MyGui extends JFrame {
                             byte[] msg = new byte[dataInputStream.available()];
                             dataInputStream.read(msg, 0, dataInputStream.available());
                             System.out.print(new String(msg)+"\n");
-                            sendMessageByBluetooth("request received");
+                            publish(new String(msg));
                         }
+                        //return null;
                     }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                }
             }
 
-//            @Override
-//            protected void process(String msg) {
-//                jTextArea2.append( msg + "\n");
-//            }
+            @Override
+            protected void process(List<String> msgs) {
+                //super.process(chunks);
+               // String value = chunks.get(chunks.size() - 1);
+               // jTextArea2.append(value + "\n");
+
+                for(String message : msgs){
+                    jTextArea2.append(message);
+                }
+
+//                protected void process(List<String> messages){
+//                    for(String message : messages){
+//                        textArea.append(message);
+//                    }
+//                }
+            }
 
             @Override
             protected void done() {
