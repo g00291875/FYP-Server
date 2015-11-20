@@ -25,14 +25,8 @@ public class WaitThread implements Runnable {
     private void waitForConnection() {
         // retrieve the local Bluetooth device object
         LocalDevice local = null;
-
         StreamConnectionNotifier notifier;
         StreamConnection connection = null;
-       // BluetoothServerSocket serverSocket;
-
-
-//        BluetoothSocket bluetoothSocket = null;
-//        BluetoothServerSocket serverSocket = adaptador.listenUsingRfcommWithServiceRecord(NAME_SERVICE_BT, ID_CONECTION);
 
             // setup the server to listen for connection
         try {
@@ -41,8 +35,6 @@ public class WaitThread implements Runnable {
             local.setDiscoverable(DiscoveryAgent.GIAC);
 
             UUID uuid = new UUID(80087355); // "04c6093b-0000-1000-8000-00805f9b34fb"
-           // BluetoothServerSocket serverSocket = adaptador.listenUsingRfcommWithServiceRecord(NAME_SERVICE_BT, ID_CONECTION);
-           // bluetoothSocket = serverSocket.accept(ChatActivity.BT_TIMER_VISIBLE * 1000);
             String url = "btspp://localhost:" + uuid.toString() + ";name=RemoteBluetooth";
             notifier = (StreamConnectionNotifier)Connector.open(url);
         } catch (Exception e) {
