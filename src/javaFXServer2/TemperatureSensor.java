@@ -17,13 +17,15 @@ public class TemperatureSensor {
     ExecutorService service = Executors.newCachedThreadPool();
     private final List<TemperatureSensorListener> listeners = Lists.newArrayList();
 
+    private TemperatureSensorListener lisener = null;
+
     public TemperatureSensor(){
         service.submit(new Runnable() {
             @Override
             public void run() {
                 while (!stopWasRequested) {
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(1);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -33,9 +35,10 @@ public class TemperatureSensor {
             }
 
             private void fireTemperatureChangeEvent() {
-                for (TemperatureSensorListener listener : listeners){
-                    listener.onReadingChange();
-            }
+               // for (TemperatureSensorListener listener : listeners){
+                  //  listeners.get(0).onReadingChange();
+                lisener.onReadingChange();
+          //  }
         }
         });//service.submit new runnable
     }//TempSensor
@@ -43,7 +46,8 @@ public class TemperatureSensor {
 
     public void addListener(TemperatureSensorListener listener) {
         Preconditions.checkNotNull(listener);
-        listeners.add(listener);
+       // listeners.add(listener);
+        lisener = listener;
     }
 
     public float getCurrentReading(){
