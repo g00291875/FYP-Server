@@ -2,10 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a208ce-acd9-4b44-bf76-22734e8d8236" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaFXServer3/Main.java" afterPath="$PROJECT_DIR$/src/javaFXServer3/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaFXServer3/TemperatureSensor.java" afterPath="$PROJECT_DIR$/src/javaFXServer3/TemperatureSensor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javaFXServer3/ThermometerApplication.java" afterPath="$PROJECT_DIR$/src/javaFXServer3/ThermometerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\description.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\FYP-Server.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\callable\CallableExample$WordLengthCallable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\callable\CallableExample.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\com\ProcessConnectionThread.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\com\RemoteBluetoothServer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\com\WaitThread.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\dictionary.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\Main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\Main$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\Main$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\Main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\TemperatureSensor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\TemperatureSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\TemperatureSensorListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\ThermometerApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\ThermometerApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\ThermometerApplication$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer2\ThermometerApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\Main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\Main$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\Main$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\Main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\TemperatureSensor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\TemperatureSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\TemperatureSensorListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\ThermometerApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\ThermometerApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\ThermometerApplication$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer3\ThermometerApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\ChatApp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\Client.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\NetworkConnection$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\NetworkConnection$ConnectionThread.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\NetworkConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\javaFXServer\Server.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\sample\ServerFX.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\server1\rfcommserver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\Main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ActionListener1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ActionListener2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ActionListener2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ButtonCounterActionListener3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ButtonCounterActionListener3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ButtonCounterActionListener4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui$ButtonCounterActionListener5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\MyGui.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\Rearrange.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\swingWorker\SpellChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\out\production\FYP-Server\temp\SimpleSPPServer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\callable\CallableExample.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\com\ProcessConnectionThread.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\com\RemoteBluetoothServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\com\WaitThread.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\dictionary.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer2\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer2\TemperatureSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer2\TemperatureSensorListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer2\ThermometerApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer3\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer3\TemperatureSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer3\TemperatureSensorListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer3\ThermometerApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer\ChatApp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer\Client.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer\NetworkConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\javaFXServer\Server.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\sample\ServerFX.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\server1\rfcommserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\swingWorker\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\swingWorker\MyGui.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\swingWorker\Rearrange.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\swingWorker\SpellChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\year 5\Git\Server\FYP-Server\safety merge folder\src\temp\SimpleSPPServer.java" afterPath="" />
     </list>
     <ignored path="FYP-Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +130,8 @@
       <file leaf-file-name="TemperatureSensor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javaFXServer3/TemperatureSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6681223">
-              <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +227,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,20 +345,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="server1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FYP-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FYP-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FYP-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FYP-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="javaFXServer3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SwEng/feature3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -663,7 +788,8 @@
       <workItem from="1448054140041" duration="2055000" />
       <workItem from="1448109835111" duration="49000" />
       <workItem from="1448464691432" duration="2350000" />
-      <workItem from="1448485170829" duration="2776000" />
+      <workItem from="1448485170829" duration="3387000" />
+      <workItem from="1448488585227" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <created>1447018636865</created>
@@ -687,7 +813,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55112000" />
+    <option name="totallyTimeSpent" value="55733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,32 +826,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2530675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24205749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21482602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25460124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1124,7 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78365386">
           <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.046703298">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23351648">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32692307">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="238" column="21" selection-start-line="195" selection-start-column="16" selection-end-line="238" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,8 +1326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaFXServer3/TemperatureSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6681223">
-          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
