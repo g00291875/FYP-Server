@@ -53,7 +53,7 @@ public class ThermometerApplication extends Application {
         Platform.runLater(new Runnable() {
             @Override
             public void run() {
-                temperatureLabel.setText(String.valueOf(sensor.getCurrentReading()));
+                temperatureLabel.setText(String.valueOf(sensor.getInputReading()));
             }
         });
     }//updateTemperature

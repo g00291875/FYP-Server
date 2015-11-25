@@ -26,7 +26,7 @@ public class TemperatureSensor {
     ExecutorService service = Executors.newCachedThreadPool();
     private final List<TemperatureSensorListener> listeners = Lists.newArrayList();
 
-    private String input = null;
+    private String input = "waiting: ";
 
     private TemperatureSensorListener lisener = null;
 
@@ -34,15 +34,15 @@ public class TemperatureSensor {
         service.submit(new Runnable() {
             @Override
             public void run() {
-                while (!stopWasRequested) {
-                    try {
-                        Thread.sleep(1);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    currentReading--;
-                    fireTemperatureChangeEvent();
-                }
+//                while (!stopWasRequested) {
+//                    try {
+//                        Thread.sleep(1);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    currentReading--;
+//                    fireTemperatureChangeEvent();
+//                }
                 /**************************/
 
                 try {
@@ -82,8 +82,10 @@ public class TemperatureSensor {
                         if(dataInputStream.available() > 0){
                             byte[] msg = new byte[dataInputStream.available()];
                             dataInputStream.read(msg, 0, dataInputStream.available());
-                            System.out.print(new String(msg)+"\n");
+                            String msgstring = new String(msg);
+                            System.out.print( msgstring+"\n");
                            // publish(new String(msg));
+                            input = msgstring + "\n";
                             fireTemperatureChangeEvent();
                         }
                         //return null;
