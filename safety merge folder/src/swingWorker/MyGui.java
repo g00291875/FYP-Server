@@ -246,7 +246,7 @@ public class MyGui extends JFrame {
                // jTextArea2.append(value + "\n");
 
                 for(String message : msgs){
-                    jTextArea2.append(message);
+                    jTextArea2.append(message+"\n");
                 }
 
 //                protected void process(List<String> messages){
